@@ -5,7 +5,7 @@ class GitGud < Formula
 
   if OS.mac? && Hardware::CPU.arm?
     url "https://github.com/SuperLonci/git-gud/releases/download/v.0/git-gud-macos-arm64"
-    sha256 "850075827c84f088c33de7cbc5c45f443b015da237b6d117605486bb10ff4626"
+    sha256 "fee86f301d5541eb604462f1514d1b1c3f528df8521720cf2144f5697a780beb"
 
     def install
       bin.install "git-gud-macos-arm64" => "git-gud"
